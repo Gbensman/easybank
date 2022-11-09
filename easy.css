@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav {
+    list-style: none;
+    display: flex;
+    justify-items: space-evenly;
+}
+.topbod {
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 5em;
+}
+.bodfin {
+    margin-left: 5em;
+}
+.btn {
+    border: double;
+    border-radius: 2em 2em 2em 2em;
+    color: white;
+    background-color:hsl(136, 65%, 51%);
+    width: 15em;
+    height: 4em;
+    opacity: 80%;
+}
+.topbod .topb {
+    display: flex;
+}
+.finbod {
+    display: grid;
+    background-color:hsl(0, 0%, 98%);
+    height: 30em;
+    justify-items: space-around;
+    
+}
+.botnav {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+figure {
+    display: flex;
+    border: dotted white;
+    margin: 20px;
+}
+figure img {
+    vertical-align: top;
+    
+}
+figure figcaption {
+    box-sizing: border-box;
+    border-width: 2px;
+    text-align: center;
+    justify-content: center;
+}
+.figflex {
+    display: grid;
+    justify-items: stretch;
+    margin: 2.5em;
+}
+.figspan {
+    justify-content: space-around;
+    display: flex;
+
+}
+footer{
+    background-color: hsl(233, 26%, 24%);
+}
+.navbar .btn button :hover {
+    opacity: 50%;
+}
